@@ -1,0 +1,15 @@
+# Claude Code
+CLAUDE.md
+
+# macOS
+.DS_Store
+
+# Build artifacts (if building locally)
+build/
+.west/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
