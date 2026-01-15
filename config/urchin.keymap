@@ -85,6 +85,11 @@
             key-positions = <7 8>;
         };
 
+        combo_sett_5 {
+            bindings = <&mo 5>;
+            key-positions = <30 31>;
+        };
+
         // left index & middle fingers (home-row)
         // hold control & space for Adobe workflowesc {};
     };
@@ -97,10 +102,10 @@
         default_layer {
             label = "Base";
             bindings = <
-&kp Q  &kp W  &kp E       &kp R       &kp T             &kp Y           &kp U        &kp I       &kp O    &kp P
-&kp A  &kp S  &qt LALT D  &qt LGUI F  &kp G             &kp H           &qt RGUI J   &qt RALT K  &kp L    &kp SEMICOLON
-&kp Z  &kp X  &kp C       &kp V       &kp B             &kp N           &kp M        &kp COMMA   &kp DOT  &kp SLASH
-                          &lt 2 TAB   &qt LSHIFT SPACE  &qt RSHFT BSPC  &lt 1 ENTER
+&kp Q  &kp W        &kp E       &kp R       &kp T             &kp Y           &kp U        &kp I       &kp O        &kp P
+&kp A  &qt LCTRL S  &qt LALT D  &qt LGUI F  &kp G             &kp H           &qt RGUI J   &qt RALT K  &qt LCTRL L  &kp SEMICOLON
+&kp Z  &kp X        &kp C       &kp V       &kp B             &kp N           &kp M        &kp COMMA   &kp DOT      &kp SLASH
+                                &lt 2 TAB   &qt LSHIFT SPACE  &qt RSHFT BSPC  &lt 1 ENTER
             >;
         };
 
@@ -121,10 +126,10 @@
         ext_layer {
             label = "Mods";
             bindings = <
-&kp ESC    &kp LC(LS(LEFT_BRACKET))  &kp LC(LS(RIGHT_BRACKET))  &kp LG(ENTER)  &kp LG(T)          &kp PG_UP     &kp HOME  &kp UP        &kp END         &kp CAPS
-&kp LSHFT  &kp LCTRL                 &kp LALT                   &kp LGUI       &kp RALT           &kp PG_DN     &kp LEFT  &kp DOWN      &kp RIGHT       &kp DEL
-&kp LG(Z)  &kp LG(X)                 &kp LG(C)                  &kp LG(V)      &kp LC(LS(RIGHT))  &kp LA(BSPC)  &kp BSPC  &kp LG(BSPC)  &kp LG(DELETE)  &kp LA(DEL)
-                                                                &trans         &kp LSHFT          &kp ENTER     &mo 3
+&kp ESC    &kp LC(LS(LEFT_BRACKET))  &kp LC(C)  &kp LG(ENTER)  &kp LG(T)          &kp PG_UP     &kp HOME  &kp UP        &kp END         &kp CAPS
+&kp LSHFT  &kp LCTRL                 &kp LALT   &kp LGUI       &kp RALT           &kp PG_DN     &kp LEFT  &kp DOWN      &kp RIGHT       &kp DEL
+&kp LG(Z)  &kp LG(X)                 &kp LG(C)  &kp LG(V)      &kp LC(LS(RIGHT))  &kp LA(BSPC)  &kp BSPC  &kp LG(BSPC)  &kp LG(DELETE)  &kp LA(DEL)
+                                                &trans         &kp LSHFT          &kp ENTER     &mo 3
             >;
         };
 
